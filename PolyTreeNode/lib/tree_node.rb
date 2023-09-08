@@ -18,6 +18,8 @@ attr_reader :value, :parent, :children
             @parent.children << self
         end
     end
+
+    
   
     def add_child(child)
         child.parent = self
@@ -38,3 +40,5 @@ attr_reader :value, :parent, :children
     end
 end
 
+    
+end
