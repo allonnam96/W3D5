@@ -31,4 +31,10 @@ attr_reader :value, :parent, :children
         end
     end
 
+    def dfs(target_value)
+        return self if self == target_value
+
+            
+    end
 end
+
